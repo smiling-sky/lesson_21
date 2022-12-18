@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson 21</title>
+</head>
+<body>
+    <div class="lesson__container">
+        <div class="block block-1">
+            <h2 class="title">Видео про синтаксис</h2>
+            <div class="example">
+                <p class="true">Варианты 1, 2 верны.</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 3 - не верно:</p>
+                <p>Каждую новую инструкцию необходимо начинать с новой строки</p>
+                <p>console.log('Учим') console.log('JS')</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 4 - не верно:</p>
+                <p>все что открыто должно быть закрыто, и наоборот</p>
+                <p>console.log('Учим);</p>
+            </div>
+
+        </div>
+        <div class="block block-2">
+            <h2 class="title">Видео про let и const</h2>
+            <h3> Задания 1 и 2 находятся в файле JS</h3>
+            <div class="example">
+                <p class="false">Вариант 1 - не верно:</p>
+                <p>Обьявлять переменные c ключевым словом нужно с новой строки. Обьявлять можно в одну строку, только с использованием одного ключевого слова let и запятых.</p>
+                <p>let user = 'вася' let age = 36</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 2 - не верно:</p>
+                <p>Переменная будет работать, только используется неправильный нейминг(нужно myAge)</p>
+                <p>let myage = 36;</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 3 - не верно:</p>
+                <p>Константа будет работать, только используется неправильный нейминг, поскольку константа с присвоенным значением в процессе выполнения программы (нужно blockSize)</p>
+                <p>const BLOCK_SIZE = 14 + 50;</p>
+            </div>
+            <div class="example">
+                <p class="true">Варианты 4 - верный.</p>
+            </div>
+            <div class="example">
+                <p class="true">Варианты 5 - верный.</p>
+                <p>Переменная  var не будет "видна" за блоком, только если этим блоком является функция</p>
+            </div>
+
+        </div>
+        <div class="block block-3">
+            <h2 class="title">Видео про типы данных</h2>
+            <div class="example">
+                <p class="false">Вариант 1 - не верно:</p>
+                <p>userInfo  нужно писать в обратных ковычках</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 2 - не верно:</p>
+                <p>Вернется значение infinity - бесконечность</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 3 - не верно:</p>
+                <p>Вернется тип данных indefind. Поскольку переменная не определена</p>
+            </div>
+            <div class="example">
+                <p class="true">Варианты 4 - верный.</p>
+                <p>Преобразование из строк в число произодет автоматичеки</p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
